@@ -6,13 +6,13 @@
   <img src="" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Meet App</b></h3>
+  <h1><b>About Meet App</b></h1>
 
 </div>
 
 <!-- TABLE OF CONTENTS -->
 
-# 📗 Table of Contents
+# Table of Contents
 
 - [About the Project](#about-project)
   - [Built With](#built-with)
@@ -150,7 +150,7 @@ that I know what events are organized in which city.
 
 <!-- AUTHORS -->
 
-## 👥 Author <a name="authors"></a>
+## Author <a name="authors"></a>
 
 **Caroline Pimenta**
 
