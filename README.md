@@ -2,12 +2,7 @@
 
 
 <div align="center">
-
-  <img src="" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h1><b>About Meet App</b></h1>
-
+  <h1><b>Meet App</b></h1>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -24,7 +19,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# Meet App <a name="about-project"></a>
+# About Meet App <a name="about-project"></a>
 
 **Meet App** is a serverless, progressive web application (PWA) with React using a
 test-driven development (TDD) technique. The application uses the Google
