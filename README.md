@@ -19,18 +19,18 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [Live Demo](#live-demo)
-	- [User stories and scenarios](#user-stories)
-- [👥 Author](#authors)
+- [User stories and scenarios](#user-stories)
+- [Author](#authors)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Meet App <a name="about-project"></a>
+# Meet App <a name="about-project"></a>
 
 **Meet App** is a serverless, progressive web application (PWA) with React using a
 test-driven development (TDD) technique. The application uses the Google
 Calendar API to fetch upcoming events.
 
-## 🛠 Built With <a name="built-with"></a>
+## Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -40,8 +40,6 @@ React.js, TDD testing tools, Google Calendar API, OAuth2 for authentication, AWS
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **Filter Events by City**
 - **Show/Hide Event Details**
@@ -56,7 +54,7 @@ React.js, TDD testing tools, Google Calendar API, OAuth2 for authentication, AWS
 
 ## User Stories and Scenarios <a name="user-stories"></a>
 
-# User storie 1 - Filter Events by City
+### User storie 1 - Filter Events by City
 As a user, I would like to be able to filter events by city so that I can see the list of events that take place in that city.
 	
 - **Scenario 1: When user hasn’t searched for a city, show upcoming events from all cities.**
@@ -74,7 +72,7 @@ As a user, I would like to be able to filter events by city so that I can see th
     When the user selects a city (e.g., “Berlin, Germany”) from the list;
     Then their city should be changed to that city (i.e., “Berlin, Germany”) AND the user should receive a list of upcoming events in that city.
 
-# User storie 2 - Show/Hide Event Details
+### User storie 2 - Show/Hide Event Details
 As a user, I would like to be able to show/hide event details so that I can see more/less information about an event.
 
 - **Scenario 1: An event element is collapsed by default**
@@ -93,7 +91,7 @@ As a user, I would like to be able to show/hide event details so that I can see 
   Then the user should see only the basic event information and the "Hide Details" button for that event should change back to "Show Details". 
 
 
-# User storie 3 - Specify Number of Events
+### User storie 3 - Specify Number of Events
 As a user, I would like to be able to specify the number of events I want to view in the app so
 that I can see more or fewer events in the events list at once.
 
@@ -108,7 +106,7 @@ that I can see more or fewer events in the events list at once.
 	When the user input a number in the "Number of events:" field;
 	Then the app should update the amount of events displayed to the inputed number.
 
-# User storie 4 - Use the App When Offline
+### User storie 4 - Use the App When Offline
 As a user, I would like to be able to use the app when offline so that I can see the events I viewed the last time I was online.
 
 - **Scenario 1: Show cached data when there's no internet connection**
@@ -121,7 +119,7 @@ As a user, I would like to be able to use the app when offline so that I can see
   When the user changes the search settings, such as city or number of events and the user attempts to apply the changes without an internet connection;
   Then the app should display an error message indicating the need for an internet connection and the app should not apply the changed search settings until an internet connection is available.
 
-# User storie 5 - Add an App Shortcut to the Home Screen
+### User storie 5 - Add an App Shortcut to the Home Screen
 As a user, I would like to be able to add the app shortcut to my home screen so that I can
 open the app faster.
 
@@ -130,7 +128,7 @@ open the app faster.
   When the user opens the app and the user navigates to the app's settings or options;
   Then the user should see instructions on how to add the app to the home screen and following the instructions, the app shortcut should be added to the device's home screen.
 
-# User storie 6 - Display Charts Visualizing Event Details
+### User storie 6 - Display Charts Visualizing Event Details
 As a user, I would like to be able to see a chart showing the upcoming events in each city so
 that I know what events are organized in which city.
 
