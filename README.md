@@ -132,6 +132,9 @@ that I know what events are organized in which city.
 	When the events list loads on the page;
 	Then the chart with number of upcoming events for that city should be displayed before the individual events.
 
+### Serverless functions
+In the Meet app, serverless functions will play a crucial role in handling authorization for accessing public calendar events from the Google Calendar API. Users need to be authorized to retrieve event data for rendering in the React app. This authorization is facilitated by serverless functions, which are a more efficient alternative to building and maintaining a full server for this purpose. In this context, serverless functions will generate and provide access tokens, ensuring secure access to the Google Calendar API. AWS Lambda will be the chosen cloud-service provider for implementing these serverless functions, making the app's architecture more scalable and cost-effective.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
