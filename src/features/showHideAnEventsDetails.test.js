@@ -72,14 +72,12 @@ defineFeature(feature, test => {
 			const AppDOM = AppComponent.container.firstChild;
 			const EventListDOM = AppDOM.querySelector('#event-list');
 
-			// Use then() to handle the asynchronous part
 			return waitFor(() => {
 				const EventListItems = within(EventListDOM).queryAllByRole('listitem');
 				expect(EventListItems.length).toBe(32);
 			}).then(() => {
 				const eventList = AppComponent.container.querySelector('#event-list');
 				const eventElements = within(eventList).queryAllByRole('listitem');
-				// Assuming the first event element is already expanded
 				const expandButton = within(eventElements[0]).queryByTestId('expand-button');
 				userEvent.click(expandButton);
 				expandedEventElement = eventElements[0];
