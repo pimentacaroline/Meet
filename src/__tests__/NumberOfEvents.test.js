@@ -2,10 +2,12 @@ import userEvent from '@testing-library/user-event';
 import NumberOfEvents from '../components/NumberOfEvents';
 import { render } from '@testing-library/react';
 
+
 describe('<NumberOfEvents /> component', () => {
   let NumberOfEventsComponent;
+
   beforeEach(() => {
-    NumberOfEventsComponent = render(<NumberOfEvents setCurrentNOE={() => {}}/>);
+    NumberOfEventsComponent = render(<NumberOfEvents setCurrentNOE={() => {}} setErrorAlert={() => {}}/>);
   });
 
   test('renders number of events text input', () => {
