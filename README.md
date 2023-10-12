@@ -142,7 +142,7 @@ In the Meet app, serverless functions will play a crucial role in handling autho
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link - coomming soon](https://google.com)
+- [Live Demo Link](https://pimentacaroline.github.io/meet)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
